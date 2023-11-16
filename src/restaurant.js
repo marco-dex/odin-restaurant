@@ -5,7 +5,7 @@ const createRestaurantHomePage = function () {
     pageContent.classList.add('page-content'); 
 
     const image = document.createElement('img'); 
-    image.src = '../image.png'; 
+    image.src = './image.png'; 
     image.height =  '300'; 
     pageContent.appendChild(image);
 
